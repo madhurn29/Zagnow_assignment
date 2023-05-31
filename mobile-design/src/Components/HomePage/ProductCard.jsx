@@ -1,12 +1,18 @@
 import { Box, Image, Text } from "@chakra-ui/react";
 import React from "react";
 import { greyColor } from "../../Utils";
+import { useNavigate } from "react-router-dom";
 
 function ProductCard({ title, desc, image, price }) {
+  const navigate = useNavigate();
   return (
-    <Box textAlign={"center"} border={"1px solid re"}>
+    <Box
+      textAlign={"center"}
+      border={"1px solid re"}
+      onClick={() => navigate("/product")}
+    >
       {/* <Box> */}
-        <Image src={image} borderRadius={"15px"} w={"100%"} />
+      <Image src={image} borderRadius={"15px"} w={"100%"} />
       {/* </Box> */}
       <Text mt={"8px"} fontSize={"14"} fontWeight={600}>
         {title}

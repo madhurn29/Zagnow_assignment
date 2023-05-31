@@ -7,7 +7,7 @@ function Time({ hours, minutes }) {
       <Text
         position={"absolute"}
         top={4}
-        left={5}
+        left={7}
         fontSize={"16px"}
         fontWeight={600}
       >

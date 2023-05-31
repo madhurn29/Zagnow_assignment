@@ -4,6 +4,7 @@ import BatteryPercentage from "./BatteryPercentage";
 import Time from "./Time";
 import Arrow_Cart from "./Arrow_Cart";
 import BatteryAndTime from "./BatteryAndTime";
+import WishList from "./WishList";
 
 function getBatteryPercentage() {
   return navigator.getBattery().then(function (battery) {
@@ -61,6 +62,7 @@ function ImageSection(image) {
         w={"100%"}
         src="nike_tshirt.png"
         mt={"-15px"}
+        // objectFit={"cover"}
       />
       {/* Time and battery is given here */}
       <BatteryAndTime minutes={minutes} hours={hours} battery={battery} />
@@ -68,6 +70,7 @@ function ImageSection(image) {
 
       {/* Arrow and Cart */}
       <Arrow_Cart />
+      <WishList/>
     </Box>
   );
 }

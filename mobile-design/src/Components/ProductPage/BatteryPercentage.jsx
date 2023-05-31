@@ -8,7 +8,7 @@ function BatteryPercentage({ battery }) {
         position={"absolute"}
         border={"2px solid black"}
         p={"1px"}
-        right={5}
+        right={3}
         top={0}
         w={"20px"}
         h="10px"
@@ -25,7 +25,7 @@ function BatteryPercentage({ battery }) {
         border={"2px solid black"}
         position={"absolute"}
         borderRightRadius={"5px"}
-        right={"15px"}
+        right={"8px"}
         top={"2px"}
         h={"6px"}
         w={"5px"}
