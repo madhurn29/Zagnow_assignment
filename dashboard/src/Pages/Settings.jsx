@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import Sidebar from "../Components/Sidebar";
 
 function Settings() {
-  return (
-    <div>Settings</div>
-  )
+  return <Sidebar>Settings</Sidebar>;
 }
 
-export default Settings
+export default Settings;
