@@ -3,7 +3,7 @@ import React from "react";
 
 function TitleSection() {
   return (
-    <Box border={"1px solid re"} mt={"35px"} pl={"12px"}>
+    <Box border={"1px solid re"} mt={"28px"} pl={"25px"}>
       <Text fontSize={"25px"} fontWeight={700}>
         Welcome,
       </Text>

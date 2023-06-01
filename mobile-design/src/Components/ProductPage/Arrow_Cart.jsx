@@ -5,11 +5,11 @@ function Arrow_Cart() {
   const naviagte = useNavigate();
   return (
     <Box
-      border={"1px solid re"}
       w={"100%"}
       top={20}
       position={"absolute"}
       display={"flex"}
+      alignItems={"center"}
       justifyContent={"space-between"}
       p={"0 6%"}
     >
@@ -28,8 +28,8 @@ function Arrow_Cart() {
         <Image src="arrow.png" />
       </Box>
       <Box
-        width={"35px"}
-        height={"35px"}
+        width={"30px"}
+        height={"30px"}
         bg={"#fff"}
         borderRadius={"50%"}
         display={"flex"}

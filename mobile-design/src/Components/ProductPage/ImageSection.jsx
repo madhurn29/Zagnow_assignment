@@ -52,7 +52,7 @@ function ImageSection(image) {
 
     //   console.log(battery);
     },
-    { minutes }
+    [ minutes ]
   );
   return (
     <Box w={"100%"} border={"1px solid re"}>

@@ -4,13 +4,16 @@ import Rating from "./Rating";
 import { greyColor } from "../../Utils";
 import TitleSection from "./TitleSection";
 import Size from "./Size";
+import { useNavigate } from "react-router-dom";
 
 function ContentSection() {
   const [quantity, setQuantity] = useState(1);
   const [size, setSize] = useState("S");
   const [price, setPrice] = useState(198.0);
+  const navigate = useNavigate();
   return (
     <Box
+      border={"1px solid re"}
       borderRadius={"30px 30px 0px 0px"}
       bg={"#fff"}
       mt={"-15px"}
@@ -64,6 +67,7 @@ function ContentSection() {
               color={"#fff"}
               display={"flex"}
               gap={"8px"}
+              onClick={() => navigate("/payment")}
             >
               <Image src="cartIcon3.png" />
               Buy Now

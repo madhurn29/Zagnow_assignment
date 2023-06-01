@@ -1,5 +1,5 @@
 import "./App.css";
-import Card from "./Components/Payment/Card";
+
 
 import AllRoutes from "./Routes/AllRoutes";
 

@@ -5,8 +5,8 @@ function AvatarSection() {
   return (
     <Box
       borderRadius={"50%"}
-      w={"35px"}
-      height={"35px"}
+      w={"56px"}
+      height={"56px"}
       border={"1px solid re"}
       // mr={"2%"}
       bg={"#dddddd"}

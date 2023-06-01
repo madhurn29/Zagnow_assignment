@@ -12,8 +12,8 @@ function WishList() {
       pr={"6%"}
     >
       <Box
-        width={"35px"}
-        height={"35px"}
+        width={"30px"}
+        height={"30px"}
         bg={"#fff"}
         borderRadius={"50%"}
         display={"flex"}

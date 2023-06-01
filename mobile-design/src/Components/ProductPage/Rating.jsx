@@ -15,7 +15,7 @@ function Rating({ n, review }) {
       border={"1px solid re"}
     >
       {arr.map((item) => {
-        return <Image src="star.png" />;
+        return <Image key={`${item} ${Math.random()}`} src="star.png" />;
       })}
       <Text ml={"3px"} fontSize={"11px"} fontWeight={400}>
         {review} (Review)

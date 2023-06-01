@@ -3,7 +3,7 @@ import React from "react";
 
 function OfferSlider() {
   return (
-    <Box border={"1px solid blac"} overflow={"hidden"} mt={"15px"} p={"12px"}>
+    <Box border={"1px solid blac"} overflow={"hidden"} mt={"15px"} p={"19px 25px"}>
       <Box display={"flex"}>
         <Box
           border={"1px solid re"}

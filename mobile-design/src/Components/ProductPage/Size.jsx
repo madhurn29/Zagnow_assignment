@@ -15,7 +15,7 @@ function Size({ size, setSize }) {
       >
         {sizes.map((item) => {
           return (
-            <Button
+            <Button key={item}
               border="1px solid #DDDDDD"
               size={"md"}
               p={0}

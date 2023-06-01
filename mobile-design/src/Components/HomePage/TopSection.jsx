@@ -6,10 +6,11 @@ function TopSection() {
   return (
     <Box
       border={"1px solid blac"}
-      mt={"10px"}
-      p={"4px 12px"}
+      
+      p={"53px 25px 0px 25px"}
       display={"flex"}
       justifyContent={"space-between"}
+      alignItems={"center"}
     >
       <MenuButton />
       <AvatarSection />
