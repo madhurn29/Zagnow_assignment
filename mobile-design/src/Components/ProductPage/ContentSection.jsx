@@ -1,7 +1,5 @@
 import { Box, Button, Image, Text } from "@chakra-ui/react";
 import React, { useState } from "react";
-import Rating from "./Rating";
-import { greyColor } from "../../Utils";
 import TitleSection from "./TitleSection";
 import Size from "./Size";
 import { useNavigate } from "react-router-dom";

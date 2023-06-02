@@ -1,8 +1,8 @@
 import { Box, Image } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
-import Arrow_Cart from "./Arrow_Cart";
 import BatteryAndTime from "./BatteryAndTime";
 import WishList from "./WishList";
+import ArrowCart from "./ArrowCart";
 
 function ImageSection() {
   const currentTime = new Date();
@@ -17,7 +17,6 @@ function ImageSection() {
       const currentTime = new Date();
       let hours = currentTime.getHours();
       const minutes = currentTime.getMinutes();
-      const seconds = currentTime.getSeconds();
 
       // battery percentage
       navigator.getBattery().then(function (battery) {
@@ -46,7 +45,7 @@ function ImageSection() {
       <BatteryAndTime minutes={minutes} hours={hours} battery={battery} />
 
       {/* Arrow and Cart */}
-      <Arrow_Cart />
+      <ArrowCart />
       <WishList />
     </Box>
   );

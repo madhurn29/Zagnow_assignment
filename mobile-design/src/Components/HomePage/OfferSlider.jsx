@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Image, Text } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 import React from "react";
 import OfferCard from "./OfferCard";
 
@@ -25,4 +25,3 @@ function OfferSlider() {
 }
 
 export default OfferSlider;
-

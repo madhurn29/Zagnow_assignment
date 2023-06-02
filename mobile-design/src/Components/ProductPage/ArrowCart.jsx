@@ -1,7 +1,7 @@
-import { Box, Image, Text } from "@chakra-ui/react";
+import { Box, Image } from "@chakra-ui/react";
 import React from "react";
 import { useNavigate } from "react-router-dom";
-function Arrow_Cart() {
+function ArrowCart() {
   const naviagte = useNavigate();
   return (
     <Box
@@ -42,4 +42,4 @@ function Arrow_Cart() {
   );
 }
 
-export default Arrow_Cart;
+export default ArrowCart;

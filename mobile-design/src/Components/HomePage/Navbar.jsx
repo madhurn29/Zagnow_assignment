@@ -1,13 +1,7 @@
 import { Box, Image, Text } from "@chakra-ui/react";
-import React, { useState } from "react";
+import React from "react";
 import { black } from "../../Utils";
 
-const iconData = [
-  { image: "homeIcon.png", title: "Home" },
-  { image: "cart.png", title: "Cart" },
-  { image: "notification.png", title: "Notification" },
-  { image: "profile.png", title: "Profile" },
-];
 function Navbar() {
   return (
     <Box
@@ -78,6 +72,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
-// box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-// 0px -2px 7px rgba(0, 0, 0, 0.1)
