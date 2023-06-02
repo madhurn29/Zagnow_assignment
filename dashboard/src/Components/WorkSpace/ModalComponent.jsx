@@ -32,7 +32,7 @@ function ModalComponent({
 
   const handleEdit = (id) => {
     setLoad(true);
-    fetch(`http://localhost:8080/products/${id}`, {
+    fetch(`https://zagnow-server.onrender.com/products/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",

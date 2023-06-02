@@ -1,17 +1,6 @@
 import React from "react";
 import Sidebar from "../Components/Sidebar";
-import {
-  Text,
-  Box,
-  Button,
-  Image,
-  Accordion,
-  AccordionItem,
-  AccordionButton,
-  AccordionIcon,
-  AccordionPanel,
-} from "@chakra-ui/react";
-import { AddIcon, MinusIcon } from "@chakra-ui/icons";
+import { Box, Accordion } from "@chakra-ui/react";
 import TopPart from "../Components/WorkSpace/TopPart";
 import ConfirmOrder from "../Components/WorkSpace/ConfirmOrder";
 import Issuses from "../Components/WorkSpace/Issuses";

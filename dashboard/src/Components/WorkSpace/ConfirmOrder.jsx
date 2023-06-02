@@ -10,6 +10,7 @@ import {
   Tbody,
   Tr,
   TableContainer,
+  Spinner,
 } from "@chakra-ui/react";
 
 import { AddIcon, MinusIcon } from "@chakra-ui/icons";
@@ -22,7 +23,7 @@ import PlacedOnTag from "./PlacedOnTag";
 import OptionsTag from "./OptionsTag";
 
 function getData(status, amount) {
-  let baseurl = `http://localhost:8080/products`;
+  let baseurl = `https://zagnow-server.onrender.com/products/`;
   if (status && amount) {
     baseurl += `?status=${status}&_sort=amount&_order=${amount}`;
   } else if (amount) {
@@ -55,7 +56,11 @@ function ConfirmOrder() {
   }, [status, amount]);
 
   return (
-    <AccordionItem border={"1px solid #EFF0F6"} borderRadius={"20px"} bg={"#fff"} >
+    <AccordionItem
+      border={"1px solid #EFF0F6"}
+      borderRadius={"20px"}
+      bg={"#fff"}
+    >
       {({ isExpanded }) => (
         <>
           <h2>
@@ -94,9 +99,31 @@ function ConfirmOrder() {
                   </Tr>
                 </Thead>
                 <Tbody>
-                  {products.length>0 && products?.map((item) => {
-                    return <RowComponent key={item.id} item={item} />;
-                  })}
+                  {isLoading ? (
+                    <Box
+                      border={"1px solid re"}
+                      h="200px"
+                      w="200px"
+                      m={"auto"}
+                      position={"relative"}
+                      left={"80%"}
+                      display={"grid"}
+                      placeItems={"center"}
+                    >
+                      <Spinner
+                        thickness="4px"
+                        speed="0.65s"
+                        emptyColor="gray.200"
+                        color="blue.500"
+                        size="xl"
+                      />
+                    </Box>
+                  ) : (
+                    products.length > 0 &&
+                    products?.map((item) => {
+                      return <RowComponent key={item.id} item={item} />;
+                    })
+                  )}
                 </Tbody>
               </Table>
             </TableContainer>
