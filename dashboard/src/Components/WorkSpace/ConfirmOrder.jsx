@@ -94,7 +94,7 @@ function ConfirmOrder() {
                   </Tr>
                 </Thead>
                 <Tbody>
-                  {products?.map((item) => {
+                  {products.length>0 && products?.map((item) => {
                     return <RowComponent key={item.id} item={item} />;
                   })}
                 </Tbody>
