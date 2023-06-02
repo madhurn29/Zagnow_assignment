@@ -18,6 +18,12 @@ We can also edit the Title of the order. We have a pop to edit the title of requ
 
 In the project directory, you can run:
 
+
+
+### `git clone https://github.com/madhurn29/Zagnow_assignment.git` Clone the repository 
+
+### `npm install` install dependices
+
 ### `npm start` to run the app in local system
 
 ### `npm run server` to run the server locally
