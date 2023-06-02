@@ -78,7 +78,7 @@ function PaymentPage() {
     } else {
       toastMsg("Please Enter all Details", "warning");
     }
-    console.log("hi");
+    // console.log("hi");
   };
   return (
     <Box
@@ -100,9 +100,11 @@ function PaymentPage() {
             </InputRightElement>
             <Input
               bg={"#fff"}
-              type="text"
+              type="tel"
               borderRadius={"4px"}
-              pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
+              required
+              minLength={16}
+              maxLength={16}
               size="xs"
               placeholder="xxxx xxxx xxxx xxxx"
               border={"1px solid black"}
