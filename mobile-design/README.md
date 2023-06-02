@@ -36,4 +36,9 @@ Once clicking now `pay now` it will open a pop to display the status of the orde
 
 In the project directory, you can run:
 
+
+### `git clone https://github.com/madhurn29/Zagnow_assignment.git` Clone the repository 
+
+### `npm install` install dependices
+
 ### `npm start` to run the app in local system
