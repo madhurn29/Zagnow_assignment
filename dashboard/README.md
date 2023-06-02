@@ -1,4 +1,5 @@
 # Dashboard app
+deployed link: https://dashboard-beta-cyan.vercel.app/
 
 This app has three section : Reports, Workspace and Settings
 All though as per the problem statement only workspaces is functional.
