@@ -21,4 +21,5 @@ In the project directory, you can run:
 ### `npm start` to run the app in local system
 
 ### `npm run server` to run the server locally
-server repo : https://github.com/madhurn29/Zagnow_assignment
+server repo : [https://github.com/madhurn29/Zagnow_assignment
+](https://github.com/madhurn29/zagnow_server)
