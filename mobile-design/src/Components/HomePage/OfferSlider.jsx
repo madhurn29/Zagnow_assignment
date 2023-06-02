@@ -1,35 +1,25 @@
-import { Box, Button, Image, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, Image, Text } from "@chakra-ui/react";
 import React from "react";
+import OfferCard from "./OfferCard";
 
 function OfferSlider() {
   return (
-    <Box border={"1px solid blac"} overflow={"hidden"} mt={"15px"} p={"19px 25px"}>
-      <Box display={"flex"}>
-        <Box
-          border={"1px solid re"}
-          borderRadius={"15px"}
-          w={"560px"}
-          h={"160px"}
-          padding={"10px"}
-          backgroundImage={"bag_banner.png"}
-          backgroundRepeat={"no-repeat"}
-          backgroundSize={"cover"}
-          //   backgroundPosition={"center"}
-        >
-          <Text fontSize={"25px"} fontWeight={700} mt={"5px"}>
-            50% Off
-          </Text>
-          <Text fontSize={"16px"} fontWeight={400} mt={"5px"}>
-            On Everything today
-          </Text>
-          <Text fontSize={"11px"} color={"#666666"} fontWeight={600} mt={"5px"}>
-            On Everything today
-          </Text>
-          <Button size={"xs"} color={"#fff"} bg={"#000000"} mt={"15px"}>
-            Get Now
-          </Button>
-        </Box>
-      </Box>
+    <Box mt={"15px"} p={"19px 25px"}>
+      <Flex
+        gap={"15px"}
+        overflowY={"scroll"}
+        overflowX={"scroll"}
+        sx={{
+          "::-webkit-scrollbar": {
+            display: "none",
+          },
+        }}
+      >
+        <OfferCard />
+        <OfferCard />
+        <OfferCard />
+        <OfferCard />
+      </Flex>
     </Box>
   );
 }

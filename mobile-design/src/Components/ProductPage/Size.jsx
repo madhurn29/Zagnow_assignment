@@ -19,6 +19,7 @@ function Size({ size, setSize }) {
               border="1px solid #DDDDDD"
               size={"md"}
               p={0}
+              _focus={{bg:"black",borderRadius:"50%"}}
               bg={size === item ? "black" : "white"}
               color={size != item ? "black" : "white"}
               borderRadius={"50%"}
