@@ -1,5 +1,7 @@
 # Mobile Design App
 
+deployed url: https://mobile-design-ivory.vercel.app/
+
 This app has three pages
 
 1. Home page
