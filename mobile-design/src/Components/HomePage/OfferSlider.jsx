@@ -26,37 +26,3 @@ function OfferSlider() {
 
 export default OfferSlider;
 
-{
-  /*
-
-<Box border={"1px solid black"} position={"relative"} display={"flex"}>
-      <Box
-        border={"1px solid black"}
-        borderRadius={"15px"}
-        position={"relative"}
-        // w={"70%"}
-        
-
-
-      >
-        <Box position={"absolute"} >
-          <Image src="bag_banner.png"  />
-        </Box>
-        <Box position={"relative"} top={"15px"} left={"15px"}>
-          <Text fontSize={"25px"} fontWeight={700}>
-            50% Off
-          </Text>
-          <Text fontSize={"16px"} fontWeight={400}>
-            On Everything today
-          </Text>
-          <Text fontSize={"11px"} color={"#666666"} fontWeight={600}>
-            On Everything today
-          </Text>
-          <Button size={"xs"} color={"#fff"} bg={"#000000"}>
-            Get Now
-          </Button>
-        </Box>
-      </Box>
-    </Box>
-    */
-}

@@ -5,13 +5,12 @@ import ProductCard from "./ProductCard";
 
 function NewArrivals() {
   return (
-    <Box  border={"1px solid re"} p={"0px 25px"}>
+    <Box border={"1px solid re"} p={"0px 25px"}>
       {/* New Arrivals Heading */}
       <Box
-      my={"15px"}
+        my={"15px"}
         display={"flex"}
         justifyContent={"space-between"}
-        // p={"5px 15px"}
         alignItems={"center"}
       >
         <Text fontSize={"18px"} fontWeight={700}>

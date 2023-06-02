@@ -25,7 +25,9 @@ function ContentSection() {
       pb={"30px"}
     >
       <Box position={"absolute"} width={"90%"} top={"10"}>
+        {/* title section */}
         <TitleSection quantity={quantity} setQuantity={setQuantity} />
+        {/* Sizes */}
         <Size size={size} setSize={setSize} />
         <Box className="Description">
           <Text fontSize={"16px"} fontWeight={600}>

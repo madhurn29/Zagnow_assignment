@@ -8,7 +8,6 @@ function AvatarSection() {
       w={"56px"}
       height={"56px"}
       border={"1px solid re"}
-      // mr={"2%"}
       bg={"#dddddd"}
       display={"flex"}
       justifyContent={"center"}

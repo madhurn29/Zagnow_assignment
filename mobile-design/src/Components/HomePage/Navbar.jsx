@@ -9,7 +9,6 @@ const iconData = [
   { image: "profile.png", title: "Profile" },
 ];
 function Navbar() {
-  const [iconState, setState] = useState(3);
   return (
     <Box
       position={"fixed"}
@@ -59,7 +58,12 @@ function Navbar() {
             </Text>
           </Box>
         </Box>
-        <Box ml={"-12px"} display={"flex"} justifyContent={"center"} alignItems={"center"}>
+        <Box
+          ml={"-12px"}
+          display={"flex"}
+          justifyContent={"center"}
+          alignItems={"center"}
+        >
           <Image src="cart.png" />
         </Box>
         <Box display={"flex"} justifyContent={"center"} alignItems={"center"}>

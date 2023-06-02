@@ -2,7 +2,7 @@ import { Box, Button, Text } from "@chakra-ui/react";
 import React from "react";
 import Rating from "./Rating";
 import { greyColor } from "../../Utils";
-function TitleSection({ title, desc, n, review, quantity, setQuantity }) {
+function TitleSection({  quantity, setQuantity }) {
   return (
     <Box
       className="top-part"
@@ -17,8 +17,12 @@ function TitleSection({ title, desc, n, review, quantity, setQuantity }) {
         <Text fontSize={"11px"} color={greyColor} fontWeight={400} my={"4px"}>
           Vado Odelle Dress
         </Text>
+
+        {/* rating section */}
         <Rating n={5} review={320} />
       </Box>
+
+      {/* increment and decrement items here */}
       <Box
         className="add_buttons"
         border={"1px solid re"}
